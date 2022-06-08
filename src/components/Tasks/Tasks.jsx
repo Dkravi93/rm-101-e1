@@ -9,7 +9,7 @@ const Tasks = () => {
         {/* Task List */}
       </ul>
       <div data-testid="tasks-empty" className={styles.empty}>
-        {/* Show when No Tasks are present */}
+        {}
       </div>
     </>
   );

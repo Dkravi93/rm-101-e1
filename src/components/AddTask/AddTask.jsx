@@ -28,12 +28,9 @@ const AddTask = ({ input , setInput, todo, setTodo }) => {
        
   }
   const handletask = (e)=>{
-    // if(e.target.value){
 
-    //   alert("Please enter text")
-    // }else{
       setInput(e.target.value)
-    // }
+ ``
   }
   return (
     <div className={styles.todoForm}>
