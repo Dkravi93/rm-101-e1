@@ -17,7 +17,7 @@ const Task = ({ todo, setTodo, del , stat  }) => {
             <div data-testid="task-text" id={`ab${el.id}`}>   
                {el.text}    
             </div>     
-            <Counter />
+            <Counter value={el.count} />
             <button data-testid="task-remove-button" onClick={()=> del(el.id)}>x</button>
         </div>)
        
